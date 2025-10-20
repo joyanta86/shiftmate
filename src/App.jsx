@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import "./index.css";
+
 
 export default function App() {
   const [year, setYear] = useState(new Date().getFullYear());
